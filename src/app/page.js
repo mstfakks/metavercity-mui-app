@@ -22,10 +22,12 @@ export default function Home() {
       </div>
       <div style={{ position: "relative" }}>
         <GetStarted />
+        <div className="gradient-start-new" style={{ zIndex: 0 }} />
         <WhatsNew />
       </div>
       <div style={{ position: "relative" }}>
         <World />
+        <div className="gradient-start-new" style={{ zIndex: 0 }} />
         <Insights />
       </div>
       <Feedback />
