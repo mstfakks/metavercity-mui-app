@@ -1,3 +1,18 @@
+# About Metavercity App
+
+## You can see project --> [https://metavercity-muinext-app.vercel.app/](https://metavercity-muinext-app.vercel.app/)
+
+## Used technologies
+
+### Nextjs
+### MUI Material
+### Framer Motion
+
+![Linkedin 2](https://user-images.githubusercontent.com/45832074/216835673-b258c734-5383-419c-9f71-377f39f1043d.jpg)
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
