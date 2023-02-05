@@ -12,7 +12,7 @@ import { Footer, Navbar } from "@/components";
 
 export default function Home() {
   return (
-    <div style={{ backgroundColor: "black", overflow: "hidden" }}>
+    <div style={{ backgroundColor: "rgb(26,35,46)", overflow: "hidden" }}>
       <Navbar />
       <Hero />
       <div style={{ position: "relative" }}>

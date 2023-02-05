@@ -4,18 +4,17 @@ import WithoutSsr from "@/components/WithoutSsr";
 import { Box, Typography } from "@mui/material";
 import { motion } from "framer-motion";
 import { staggerContainer, textVariant, slideIn } from "@/motion/motion";
-import Link from "next/link";
 
 const Hero = () => {
   return (
     <WithoutSsr>
       <Box
         sx={{
-          "@media (max-width: 640px) and (min-width:320px)": {
+          "@media (min-width:640px)": {
             paddingY: "64px",
             paddingLeft: "64px",
           },
-          "@media (max-width: 320px)": {
+          "@media (min-width: 290px)": {
             paddingY: "32px",
           },
           paddingY: "48px",
@@ -174,10 +173,6 @@ const Hero = () => {
                 src="/stamp.png"
                 alt="stamp"
                 style={{
-                  "@media screen and (min-width: 640px) ": {
-                    width: "155px",
-                    height: "155px",
-                  },
                   width: "100px",
                   height: "100px",
                   objectFit: "contain",
